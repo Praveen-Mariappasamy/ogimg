@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///Users/praveen-tt0483/Desktop/vercelog/og-image-generator/src/app/api/og/route.tsx"],"sourcesContent":["import { ImageResponse } from 'next/og';\n// App router includes @vercel/og.\n// No need to install it.\n \nexport async function GET(request: Request) {\n  return new ImageResponse(\n    (\n      <div\n        style={{\n          fontSize: 40,\n          color: 'black',\n          background: 'white',\n          width: '100%',\n          height: '100%',\n          padding: '50px 200px',\n          textAlign: 'center',\n          justifyContent: 'center',\n          alignItems: 'center',\n        }}\n      >\n        👋 Hello\n      </div>\n    ),\n    {\n      width: 1200,\n      height: 630,\n    },\n  );\n}"],"names":[],"mappings":";;;;AAAA;;;AAIO,eAAe,IAAI,OAAgB;IACxC,OAAO,IAAI,4HAAA,CAAA,gBAAa,eAEpB,gPAAC;QACC,OAAO;YACL,UAAU;YACV,OAAO;YACP,YAAY;YACZ,OAAO;YACP,QAAQ;YACR,SAAS;YACT,WAAW;YACX,gBAAgB;YAChB,YAAY;QACd;kBACD;;;;;cAIH;QACE,OAAO;QACP,QAAQ;IACV;AAEJ"}},
+    {"offset": {"line": 77, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
